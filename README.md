@@ -19,10 +19,10 @@ Add RingButton to your xml and change the style with its attrs.
 ```xml
   <com.victor.ringbutton.RingButton
         android:id="@+id/ringButton"
-        app:upText="Take Photo"
-        app:downText="Hand Write"
-        app:upDrawable="@drawable/take_photo"
-        app:downDrawable="@drawable/hand_write"
+        app:ringbutton_upText="Take Photo"
+        app:ringbutton_downText="Hand Write"
+        app:ringbutton_upDrawable="@drawable/take_photo"
+        app:ringbutton_downDrawable="@drawable/hand_write"
         android:layout_centerInParent="true"
         android:layout_width="240dp"
         android:layout_height="240dp"/>
